@@ -67,3 +67,17 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# IDE files
+.vscode/
+
+# Specific project files
+*.zip
+*.tar.gz
+*.rar
+test_env/
+*.asi
+
+# Native Linux core dumps
+core
+core.*
